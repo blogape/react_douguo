@@ -107,6 +107,10 @@ section {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     line-height: 1;
     max-width: 640px;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { HashRouter, Route } from "react-router-dom";
-import App from "./pages/home/App";
-import Home from "./pages/home/Home";
+import App from "./App";
+import Home from "./pages/Home/Home";
 class IRoute extends React.Component{
     public render(){
         return(

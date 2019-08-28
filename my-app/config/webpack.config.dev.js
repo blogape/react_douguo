@@ -126,7 +126,7 @@ module.exports = {
         test: /\.(js|jsx|mjs)$/,
         loader: require.resolve('source-map-loader'),
         enforce: 'pre',
-        include: paths.appSrc,
+        include: paths.appSrc
       },
       {
         // "oneOf" will traverse all following loaders until one will
